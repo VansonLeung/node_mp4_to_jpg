@@ -1,0 +1,14 @@
+[      85ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:4173/node_modules/.vite/deps/react-dom_client.js?v=1ded840b:14337
+[     116ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[    9694ms] [LOG] [useFrameExtraction] Handling file change {fileName: sample.mp4, fileType: video/mp4} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[    9694ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[    9718ms] [LOG] [useFrameExtraction] Video metadata loaded {duration: 13.346667, width: 640, height: 360} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   14939ms] [LOG] [useFrameExtraction] Extract action requested @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   14939ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   14939ms] [LOG] [useFrameExtraction] Ensuring FFmpeg engine {label: Loading FFmpeg} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   14939ms] [LOG] [frame-service] Loading FFmpeg core @ http://127.0.0.1:4173/src/lib/frame-extraction-service.js?t=1775292636532:16
+[   15315ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.10/dist/umd/ffmpeg-core.worker.js:0
+[   15316ms] [LOG] [frame-service] FFmpeg core assets downloaded @ http://127.0.0.1:4173/src/lib/frame-extraction-service.js?t=1775292636532:16
+[   15337ms] [LOG] [frame-service] FFmpeg load failed {message: null, stringified: Error: failed to import ffmpeg-core.js, name: null} @ http://127.0.0.1:4173/src/lib/frame-extraction-service.js?t=1775292636532:14
+[   15338ms] [LOG] [useFrameExtraction] Extraction failed {message: Error: failed to import ffmpeg-core.js} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   47459ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7

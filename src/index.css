@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f4efe4;
+  --foreground: #1e1d1a;
+  --card: rgba(255, 251, 245, 0.84);
+  --card-strong: rgba(255, 248, 238, 0.97);
+  --border: rgba(31, 29, 26, 0.12);
+  --muted: #6d665b;
+  --muted-foreground: #5e564b;
+  --primary: #d9643a;
+  --primary-foreground: #fff8f0;
+  --secondary: #dae7df;
+  --secondary-foreground: #19332a;
+  --accent: #1c4556;
+  --accent-foreground: #eef8fb;
+  --ring: rgba(217, 100, 58, 0.3);
+  --shadow: 0 24px 80px rgba(60, 39, 17, 0.14);
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top left, rgba(217, 100, 58, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(28, 69, 86, 0.18), transparent 30%),
+    linear-gradient(180deg, #fbf8f2 0%, var(--background) 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--foreground);
+  background: transparent;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.04em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(28, 69, 86, 0.24);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, var(--card-strong), var(--card));
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}
+
+.dot-grid {
+  background-image: radial-gradient(rgba(30, 29, 26, 0.08) 0.7px, transparent 0.7px);
+  background-size: 18px 18px;
+}

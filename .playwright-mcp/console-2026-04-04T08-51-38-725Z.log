@@ -1,0 +1,7 @@
+[      77ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:4173/node_modules/.vite/deps/react-dom_client.js?v=1ded840b:14337
+[     109ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[    8591ms] [LOG] [useFrameExtraction] Handling file change {fileName: sample.mp4, fileType: video/mp4} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[    8591ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[    8613ms] [LOG] [useFrameExtraction] Video metadata loaded {duration: 13.346667, width: 640, height: 360} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   11876ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:4173/node_modules/.vite/deps/react-dom_client.js?v=1ded840b:14337
+[   11901ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7

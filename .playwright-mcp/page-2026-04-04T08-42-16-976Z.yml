@@ -1,0 +1,129 @@
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Frame Forge
+        - heading "MP4 to JPG, frame by frame." [level=1] [ref=e11]
+        - paragraph [ref=e12]: Upload a single MP4, extract every frame as JPG, preview the sequence, and export full or ranged ZIP bundles.
+      - img [ref=e14]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "Source Video" [level=3] [ref=e19]
+          - paragraph [ref=e20]: MP4 only. Extraction runs fully in the browser with ffmpeg.wasm.
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - text: Upload MP4
+            - button "Upload MP4" [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: File
+              - generic [ref=e27]: sample.mp4
+            - generic [ref=e28]:
+              - generic [ref=e29]: Size
+              - generic [ref=e30]: 561 KB
+            - generic [ref=e31]:
+              - generic [ref=e32]: Duration
+              - generic [ref=e33]: 00:13
+            - generic [ref=e34]:
+              - generic [ref=e35]: Resolution
+              - generic [ref=e36]: 640 x 360
+          - button "Extract JPG Frames" [ref=e143]:
+            - img
+            - text: Extract JPG Frames
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "Output Controls" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Export every frame or a time-bounded subset as ZIP.
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: Frames
+              - generic [ref=e45]: "0"
+            - generic [ref=e46]:
+              - generic [ref=e47]: Est. FPS
+              - generic [ref=e48]: "0"
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - text: Range Start (s)
+              - spinbutton "Range Start (s)" [ref=e51]: "0"
+            - generic [ref=e52]:
+              - text: Range End (s)
+              - spinbutton "Range End (s)" [ref=e53]: "13.35"
+          - generic [ref=e54]:
+            - button "Download All Frames ZIP" [disabled]:
+              - img
+              - text: Download All Frames ZIP
+            - button "Download Range ZIP" [disabled]:
+              - img
+              - text: Download Range ZIP
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Engine Status" [level=3] [ref=e59]
+            - paragraph [ref=e60]: FFmpeg loads on the first processing run.
+          - generic [ref=e61]: Cold
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: Idle
+            - generic [ref=e66]: "--"
+          - generic [ref=e69]:
+            - generic [ref=e70]: Recent Logs
+            - generic [ref=e72]: Waiting for a file.
+  - main [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]: Fullscreen Workspace
+          - generic [ref=e79]: Desktop + Mobile
+        - heading "Review the extracted frame sequence in two ways." [level=3] [ref=e80]
+        - paragraph [ref=e81]: The right panel combines a paginated JPG grid and a timeline viewer so you can inspect discrete frames or scrub the broader motion arc.
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - img [ref=e85]
+            - text: Source
+          - generic [ref=e88]: sample.mp4
+          - generic [ref=e89]: 561 KB
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - img [ref=e92]
+            - text: Frames
+          - generic [ref=e97]: "0"
+          - generic [ref=e98]: 00:13
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - text: Active Frame
+          - generic [ref=e104]: "#0"
+          - generic [ref=e105]: No preview yet
+    - generic [ref=e106]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - heading "Paginated JPG Frames" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Browse extracted frames in pages and jump directly to any JPG.
+          - generic [ref=e113]:
+            - button [disabled]:
+              - img
+            - generic [ref=e114]: Page 1 / 1
+            - button [disabled]:
+              - img
+        - generic [ref=e116]: Extract frames to populate the JPG grid.
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - heading "Timeline Viewer" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Scrub the extracted sequence with a large active preview and sampled timeline thumbnails.
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - img [ref=e127]
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - generic [ref=e133]: Selected
+                - generic [ref=e134]: No frame selected
+              - generic [ref=e135]: Choose a frame from the grid or timeline to inspect it here.
+              - slider [disabled] [ref=e136]: "0"
+              - generic [ref=e137]:
+                - generic [ref=e138]: Start
+                - generic [ref=e139]: End
+          - generic [ref=e142]: Timeline samples will appear after extraction.

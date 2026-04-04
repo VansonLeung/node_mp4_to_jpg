@@ -1,0 +1,12 @@
+[      82ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:4173/node_modules/.vite/deps/react-dom_client.js?v=1ded840b:14337
+[     109ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   10002ms] [LOG] [useFrameExtraction] Handling file change {fileName: sample.mp4, fileType: video/mp4} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   10003ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   10014ms] [LOG] [useFrameExtraction] Video metadata loaded {duration: 13.346667, width: 640, height: 360} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   18753ms] [LOG] [useFrameExtraction] Extract action requested @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   18753ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
+[   18753ms] [LOG] [useFrameExtraction] Ensuring FFmpeg engine {label: Loading FFmpeg} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   18754ms] [LOG] [frame-service] Loading FFmpeg core @ http://127.0.0.1:4173/src/lib/frame-extraction-service.js:16
+[   18881ms] [LOG] [frame-service] FFmpeg core assets downloaded @ http://127.0.0.1:4173/src/lib/frame-extraction-service.js:16
+[   18905ms] [LOG] [useFrameExtraction] Extraction failed {message: undefined} @ http://127.0.0.1:4173/src/lib/logger.js:5
+[   64227ms] [LOG] [useFrameExtraction] Clearing in-memory frame URL cache @ http://127.0.0.1:4173/src/lib/logger.js:7
